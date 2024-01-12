@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .feature-btn{
+         @apply bg-accent text-white px-3 py-1 rounded-full hover:bg-accentDark  transition-all;
+    }
+}
